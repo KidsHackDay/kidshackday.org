@@ -1,0 +1,156 @@
+---
+---
+
+// VARIABLES
+//// COLORS
+$white: #ffffff;
+$grey-light: #dedede;
+$grey: #303030;
+$dark-grey: #404040;
+
+//// SIZES
+$base-line: 18px;
+
+
+
+
+// TYPOGRAPHY
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	color: $grey;
+}
+
+h1 {
+	font-size: 72px;
+	line-height: 1.3em;
+	letter-spacing: 0em;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 1.8em;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 1.5em;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 22px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.3em;
+	letter-spacing: 0.05em;
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+	color: $dark-grey;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: $grey;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+// LAYOUT HELPERS
+.color-overlay {
+	&::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(8,0,26,.4);
+		z-index: 0;
+	}
+	* {
+		z-index: 10;
+	}
+}
+.vertical-pad {
+	padding-top: $base-line*2;
+	padding-bottom: $base-line*2;
+}
+
+// SECTIONS:
+
+//// NAVBAR
+.navbar {
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	.nav-item {
+		text-transform: uppercase;
+		font-size: 14px;
+		letter-spacing: 0.1em;
+		font-weight: bold;
+		font-family: 'Open Sans', sans-serif;
+		.nav-link {
+			padding-right: 1rem;
+			padding-left: 1rem;
+			color: $grey-light;
+		}
+	}
+}
+
+//// HEADER
+.header {
+	height: calc(90vh - 95px);
+	background: url('{{site.data.home.header.background}}');
+	background-repeat: no-repeat;
+	background-size: cover;
+	p {
+		line-height: 2em;
+	}
+	* {
+		color: $grey-light;
+	}
+}
+
+//// METRICS
+.metrics {
+	position: relative;
+	background: url('{{site.data.home.metrics.background}}');
+	background-repeat: no-repeat;
+	background-size: cover;
+	* {
+		color: $grey-light;
+	}
+	.fa {
+		font-size: 32px;
+	}
+}
+
+//// EVENTS
+.events {
+	.event {
+		text-align: center;
+	}
+}

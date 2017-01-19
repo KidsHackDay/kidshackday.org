@@ -1,0 +1,108 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #303030; }
+
+h1 {
+  font-size: 72px;
+  line-height: 1.3em;
+  letter-spacing: 0em;
+  font-weight: 300; }
+
+h2 {
+  font-size: 32px;
+  line-height: 1.8em;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em; }
+
+h3 {
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: bold; }
+
+h4 {
+  font-size: 22px;
+  line-height: 1.5em;
+  font-weight: normal; }
+
+h5 {
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: normal; }
+
+body {
+  font-size: 16px;
+  line-height: 1.3em;
+  letter-spacing: 0.05em;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #404040; }
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+  color: #303030; }
+
+a:hover {
+  text-decoration: underline; }
+
+.color-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 0, 26, 0.4);
+  z-index: 0; }
+.color-overlay * {
+  z-index: 10; }
+
+.vertical-pad {
+  padding-top: 36px;
+  padding-bottom: 36px; }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%; }
+  .navbar .nav-item {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif; }
+    .navbar .nav-item .nav-link {
+      padding-right: 1rem;
+      padding-left: 1rem;
+      color: #dedede; }
+
+.header {
+  height: calc(90vh - 95px);
+  background: url("/assets/khd_quirkbot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .header p {
+    line-height: 2em; }
+  .header * {
+    color: #dedede; }
+
+.metrics {
+  position: relative;
+  background: url("/assets/khd_quirkbot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .metrics * {
+    color: #dedede; }
+  .metrics .fa {
+    font-size: 32px; }
+
+.events .event {
+  text-align: center; }

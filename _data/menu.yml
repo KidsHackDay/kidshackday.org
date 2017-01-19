@@ -1,0 +1,11 @@
+logo: /assets/khd_logo.png
+items:
+  - text: What is KHD
+    link: /about
+
+  - text: Organize your own
+    link: /organize
+
+  - text: Wiki
+    link: http://kidshackday.pbworks.com
+    target: _blank

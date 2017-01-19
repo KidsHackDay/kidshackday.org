@@ -1,0 +1,42 @@
+---
+layout: 'default'
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col">
+
+			<h1>{{site.data.about.header.title}}</h1>
+			<p>{{site.data.about.header.description}}</p>
+			<p>
+				<a class="btn btn-primary" href="{{site.data.about.header.button.link}}">
+					{{site.data.about.header.button.text}}
+				</a>
+			</p>
+
+			<h2>{{site.data.about.history.title}}</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/{{site.data.about.history.youtubeId}}" frameborder="0" allowfullscreen></iframe>
+
+			<p>
+				{{site.data.about.history.text}}
+			</p>
+
+			{% for goal in site.data.about.goals %}
+				<p>
+					<i class="fa {{goal.icon}}"></i>
+				</p>
+				<p>
+					{{goal.text}}
+				</p>
+			{% endfor %}
+
+			<h2>{{site.data.about.more.title}}</h2>
+			<p>{{site.data.about.more.text}}</p>
+			<p>
+				<a class="btn btn-primary" href="{{site.data.about.more.button.link}}">
+					{{site.data.about.more.button.text}}
+				</a>
+			</p>
+		</div>
+	</div>
+</div>
