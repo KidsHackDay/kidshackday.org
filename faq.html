@@ -1,0 +1,39 @@
+---
+layout: 'default'
+---
+
+<div class="process">
+	<div class="navbar-padding color-overlay"></div>
+
+	<div class="container vertical-pad">
+		<div class="row">
+			<div class="col">
+				<h2>{{site.data.faq.title}}</h2>
+			</div>
+			<div class="w-100"></div>
+			<div class="col"></div>
+			<div class="col-md-8">
+				<p>
+					{{site.data.faq.text}}
+				</p>
+			</div>
+			<div class="col"></div>
+		</div>
+		{% for faq in site.data.faq.items %}
+			<div class="row items-list vertical-pad">
+				<div class="col"></div>
+				<div class="col-md-8">
+					<h4>
+						{{faq.question}}
+					</h4>
+					<p>
+						{{faq.answer}}
+					</p>
+				</div>
+				<div class="col"></div>
+			</div>
+		{% endfor %}
+	</div>
+
+
+</div>

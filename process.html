@@ -1,0 +1,59 @@
+---
+layout: 'default'
+---
+
+<div class="process">
+	<div class="navbar-padding color-overlay"></div>
+
+	<div class="container vertical-pad">
+		<div class="row">
+			<div class="col">
+				<h2>{{site.data.process.title}}</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-md-10">
+				<div class="video-container">
+					<iframe width="540" height="315" src="https://www.youtube.com/embed/{{site.data.process.youtubeId}}" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col"></div>
+		</div>
+		<div class="row vertical-pad">
+			<div class="col"></div>
+			<div class="col-md-8">
+				<p>
+					{{site.data.process.text}}
+				</p>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h2>{{site.data.process.steps.title}}</h2>
+			</div>
+		</div>
+		{% for step in site.data.process.steps.items %}
+			<div class="row items-list vertical-pad">
+				<div class="col-md-5 col-lg-3 offset-lg-1">
+					<p>
+						<img width="100%" src="{{site.url}}/{{step.image}}" alt="{{step.title}}">
+					</p>
+				</div>
+				<div class="col-md-7">
+					<h4>
+						{{step.title}}
+					</h4>
+					<p>
+						{{step.text}}
+					</p>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+
+</div>
