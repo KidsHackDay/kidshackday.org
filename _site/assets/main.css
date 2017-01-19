@@ -86,7 +86,7 @@ a:hover {
 
 .header {
   height: calc(90vh - 95px);
-  background: url("/assets/khd_quirkbot.jpg");
+  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .header p {
@@ -96,7 +96,7 @@ a:hover {
 
 .metrics {
   position: relative;
-  background: url("/assets/khd_quirkbot.jpg");
+  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .metrics * {
