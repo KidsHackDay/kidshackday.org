@@ -32,30 +32,33 @@ history:
     freegan kitsch 8-bit, brooklyn cliche bespoke activated.
 
 goals:
-  - icon: fa-heart
-    text:
-      Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
-      freegan kitsch 8-bit, brooklyn cliche bespoke activated
-  - icon: fa-heart
-    text:
-      Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
-      freegan kitsch 8-bit, brooklyn cliche bespoke activated
-  - icon: fa-heart
-    text:
-      Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
-      freegan kitsch 8-bit, brooklyn cliche bespoke activated
-  - icon: fa-heart
-    text:
-      Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
-      freegan kitsch 8-bit, brooklyn cliche bespoke activated
-  - icon: fa-heart
-    text:
-      Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
-      freegan kitsch 8-bit, brooklyn cliche bespoke activated
-  - icon: fa-heart
-    text:
-      Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
-      freegan kitsch 8-bit, brooklyn cliche bespoke activated
+  title: KHD goals
+  background: /assets/khd_quirkbot.jpg
+  items:
+    - icon: fa-heart
+      text:
+        Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+        freegan kitsch 8-bit, brooklyn cliche bespoke activated
+    - icon: fa-heart
+      text:
+        Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+        freegan kitsch 8-bit, brooklyn cliche bespoke activated
+    - icon: fa-heart
+      text:
+        Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+        freegan kitsch 8-bit, brooklyn cliche bespoke activated
+    - icon: fa-heart
+      text:
+        Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+        freegan kitsch 8-bit, brooklyn cliche bespoke activated
+    - icon: fa-heart
+      text:
+        Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+        freegan kitsch 8-bit, brooklyn cliche bespoke activated
+    - icon: fa-heart
+      text:
+        Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+        freegan kitsch 8-bit, brooklyn cliche bespoke activated
 
 more:
   title: Do you want to know more?

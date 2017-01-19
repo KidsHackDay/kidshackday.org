@@ -1,3 +1,6 @@
+body {
+  -webkit-font-smoothing: antialiased; }
+
 h1,
 h2,
 h3,
@@ -68,6 +71,51 @@ a:hover {
   padding-top: 36px;
   padding-bottom: 36px; }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+a.khd-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  padding: 1em 1.75em;
+  line-height: 1em;
+  margin: 18px 0;
+  -webkit-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  -moz-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  -ms-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  -o-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out; }
+
+a.khd-btn:hover {
+  text-decoration: none; }
+
+a.khd-btn-outline {
+  border: 2px solid #fde153;
+  color: #fde153; }
+
+a.khd-btn-outline:hover {
+  text-decoration: none;
+  color: #404040;
+  background: #fde153; }
+
+a.khd-btn-fill {
+  background: #fde153; }
+
 .navbar {
   position: absolute;
   top: 0;
@@ -83,6 +131,12 @@ a:hover {
       padding-right: 1rem;
       padding-left: 1rem;
       color: #dedede; }
+
+.navbar-padding {
+  position: relative;
+  height: 95px;
+  width: 100%;
+  z-index: 0; }
 
 .header {
   height: calc(90vh - 95px);
@@ -102,6 +156,16 @@ a:hover {
   .metrics * {
     color: #dedede; }
   .metrics .fa {
+    font-size: 32px; }
+
+.goals {
+  position: relative;
+  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .goals * {
+    color: #dedede; }
+  .goals .fa {
     font-size: 32px; }
 
 .events .event {

@@ -6,13 +6,24 @@
 $white: #ffffff;
 $grey-light: #dedede;
 $grey: #303030;
-$dark-grey: #404040;
+$grey-dark: #404040;
+$yellow: #fde153;
 
 //// SIZES
 $base-line: 18px;
+$font-huge: 100px;
+$font-header1: 72px;
+$font-header2: 32px;
+$font-header3: 22px;
+$font-header4: 22px;
+$font-header5: 18px;
+$font-body: 16px;
+$font-menu: 14px;
 
-
-
+// ------------
+body {
+	-webkit-font-smoothing: antialiased;
+}
 
 // TYPOGRAPHY
 h1,
@@ -25,14 +36,14 @@ h5 {
 }
 
 h1 {
-	font-size: 72px;
+	font-size: $font-header1;
 	line-height: 1.3em;
 	letter-spacing: 0em;
 	font-weight: 300;
 }
 
 h2 {
-	font-size: 32px;
+	font-size: $font-header2;
 	line-height: 1.8em;
 	font-weight: 300;
 	text-transform: uppercase;
@@ -42,30 +53,30 @@ h2 {
 }
 
 h3 {
-	font-size: 22px;
+	font-size: $font-header3;
 	line-height: 1.5em;
 	font-weight: bold;
 }
 
 h4 {
-	font-size: 22px;
+	font-size: $font-header4;
 	line-height: 1.5em;
 	font-weight: normal;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: $font-header5;
 	line-height: 1.5em;
 	font-weight: normal;
 }
 
 body {
-	font-size: 16px;
+	font-size: $font-body;
 	line-height: 1.3em;
 	letter-spacing: 0.05em;
 	font-weight: normal;
 	font-family: 'Roboto', sans-serif;
-	color: $dark-grey;
+	color: $grey-dark;
 }
 
 a:link,
@@ -98,6 +109,58 @@ a:hover {
 	padding-bottom: $base-line*2;
 }
 
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+// BUTTONS
+
+a.khd-btn {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	font-style: normal;
+	text-decoration: none;
+	padding: 1em 1.75em;
+	line-height: 1em;
+	margin: $base-line 0;
+	-webkit-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  -moz-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  -ms-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  -o-transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+  transition: background-color .1s 0s ease-in-out,color .1s 0s ease-in-out;
+}
+a.khd-btn:hover {
+	text-decoration: none;
+}
+
+a.khd-btn-outline {
+	border: 2px solid $yellow;
+	color: $yellow;
+}
+a.khd-btn-outline:hover {
+	text-decoration: none;
+	color: $grey-dark;
+	background: $yellow;
+}
+
+a.khd-btn-fill {
+	background: $yellow;
+}
+
 // SECTIONS:
 
 //// NAVBAR
@@ -108,7 +171,7 @@ a:hover {
 	width: 100%;
 	.nav-item {
 		text-transform: uppercase;
-		font-size: 14px;
+		font-size: $font-menu;
 		letter-spacing: 0.1em;
 		font-weight: bold;
 		font-family: 'Open Sans', sans-serif;
@@ -118,6 +181,12 @@ a:hover {
 			color: $grey-light;
 		}
 	}
+}
+.navbar-padding {
+	position: relative;
+	height: 95px;
+	width: 100%;
+	z-index: 0;
 }
 
 //// HEADER
@@ -138,6 +207,20 @@ a:hover {
 .metrics {
 	position: relative;
 	background: url('{{site.url}}{{site.data.home.metrics.background}}');
+	background-repeat: no-repeat;
+	background-size: cover;
+	* {
+		color: $grey-light;
+	}
+	.fa {
+		font-size: 32px;
+	}
+}
+
+//// GOALS
+.goals {
+	position: relative;
+	background: url('{{site.url}}{{site.data.about.goals.background}}');
 	background-repeat: no-repeat;
 	background-size: cover;
 	* {
