@@ -140,6 +140,11 @@ a.khd-btn-fill {
 
 .header {
   height: calc(90vh - 95px); }
+  @media all and (max-width: 544px) {
+    .header h1 {
+      font-size: 43.2px; }
+    .header h4 {
+      font-size: 16px; } }
   .header p {
     line-height: 2em; }
   .header * {
@@ -180,10 +185,6 @@ a.khd-btn-fill {
   .goals .fa {
     font-size: 32px; }
 
-.events-list .event {
-  text-align: center;
-  margin-bottom: 18px; }
-
-.activities-list .activity {
+.items-list .item {
   text-align: center;
   margin-bottom: 18px; }

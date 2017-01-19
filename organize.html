@@ -45,6 +45,11 @@ layout: 'default'
 			</div>
 			<div class="col"></div>
 		</div>
+		<div class="row text-center">
+			<div class="col">
+				<a class="khd-btn khd-btn-fill" href="{{site.url}}/process">Follow this steps</a>
+			</div>
+		</div>
 	</div>
 
 	<div class="container vertical-pad">
@@ -53,9 +58,9 @@ layout: 'default'
 				<h2>{{site.data.organize.activities.title}}</h2>
 			</div>
 		</div>
-		<div class="row activities-list">
+		<div class="row items-list">
 			{% for activity in site.data.organize.activities.items %}
-				<div class="col-md-4 activity">
+				<div class="col-md-4 item">
 					<p>
 						<a href="#">
 							<img width="100%" src="{{site.url}}/{{activity.image}}" alt="{{activity.title}}">

@@ -191,6 +191,14 @@ a.khd-btn-fill {
 
 //// HEADER
 .header {
+	@media all and (max-width: 544px) {
+		h1 {
+			font-size: $font-header1*0.6;
+		}
+		h4 {
+			font-size: $font-body;
+		}
+	}
 	height: calc(90vh - 95px);
 	p {
 		line-height: 2em;
@@ -244,14 +252,8 @@ a.khd-btn-fill {
 }
 
 //// EVENTS
-.events-list {
-	.event {
-		text-align: center;
-		margin-bottom: $base-line;
-	}
-}
-.activities-list {
-	.activity {
+.items-list {
+	.item {
 		text-align: center;
 		margin-bottom: $base-line;
 	}
