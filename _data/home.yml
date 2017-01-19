@@ -1,5 +1,5 @@
 header:
-  background: /assets/khd_quirkbot.jpg
+  background: /assets/images/khd_quirkbot.jpg
   title: Kids Hack Day
   description:
     We empower kids to change the world. One hack day at a time.
@@ -9,7 +9,7 @@ header:
     link: /about
 
 metrics:
-  background: /assets/khd_quirkbot.jpg
+  background: /assets/images/khd_quirkbot.jpg
   title: Achievements
   items:
     - icon: fa-heart

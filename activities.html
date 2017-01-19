@@ -1,0 +1,67 @@
+---
+layout: 'default'
+---
+
+<div class="events">
+	<div class="navbar-padding color-overlay"></div>
+
+	<div class="container vertical-pad">
+		<div class="row">
+			<div class="col text-center">
+				<h2>{{site.data.activities.title}}</h2>
+			</div>
+		</div>
+		<div class="row items-list">
+				{% for activity in site.data.activities.items %}
+					<div class="col-md-4 item">
+						<p>
+							<a href="#">
+								<img width="100%" src="{{site.url}}/{{activity.image}}" alt="{{activity.title}}">
+							</a>
+						</p>
+						<h4>
+							<a href="#">
+								{{activity.title}}
+							</a>
+						</h4>
+					</div>
+				{% endfor %}
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h2>{{site.data.activities.partners.title}}</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-md-8 text-center">
+				<h5>{{site.data.activities.partners.text}}</h5>
+			</div>
+			<div class="col"></div>
+		</div>
+		{% for partner in site.data.activities.partners.items %}
+			<div class="row items-list vertical-pad">
+				<div class="col-md-5 col-lg-3 offset-lg-1">
+					<p>
+						<a href="{{partner.link}}" target="_blank">
+							<img width="100%" src="{{site.url}}/{{partner.image}}" alt="{{partner.name}}">
+						</a>
+					</p>
+				</div>
+				<div class="col-md-7">
+					<h4>
+						<a href="{{partner.link}}" target="_blank">
+							{{partner.name}}
+						</a>
+					</h4>
+					<p>
+						{{partner.text}}
+					</p>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>

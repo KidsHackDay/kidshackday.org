@@ -27,7 +27,7 @@ layout: 'default'
 			</div>
 		</div>
 		<div class="row items-list">
-				{% for event in site.data.events.events %}
+				{% for event in site.data.events.items %}
 					{% if forloop.index <= 3 %}
 						<div class="col-md item">
 							<p>
@@ -75,4 +75,35 @@ layout: 'default'
 			</div>
 		</div>
 	</div>
+	<div class="container vertical-pad">
+		<div class="row text-center">
+			<div class="col">
+				<h2>{{site.data.activities.title}}</h2>
+			</div>
+		</div>
+		<div class="row items-list">
+			{% for activity in site.data.activities.items %}
+				{% if forloop.index <= 6 %}
+					<div class="col-md-4 item">
+						<p>
+							<a href="#">
+								<img width="100%" src="{{site.url}}/{{activity.image}}" alt="{{activity.title}}">
+							</a>
+						</p>
+						<h4>
+							<a href="{{activity.link}}">
+								{{activity.title}}
+							</a>
+						</h4>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class="row text-center">
+			<div class="col">
+				<a class="khd-btn khd-btn-fill" href="{{site.url}}/activities">See more</a>
+			</div>
+		</div>
+	</div>
+
 </div>

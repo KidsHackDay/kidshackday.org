@@ -139,6 +139,7 @@ a.khd-btn-fill {
   z-index: 0; }
 
 .header {
+  padding-top: 95px;
   height: calc(90vh - 95px); }
   @media all and (max-width: 544px) {
     .header h1 {
@@ -151,23 +152,23 @@ a.khd-btn-fill {
     color: #dedede; }
 
 .home .header {
-  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background: url("http://localhost:4000/assets/images/khd_quirkbot.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 .about .header {
-  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background: url("http://localhost:4000/assets/images/khd_quirkbot.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 .organize .header {
-  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background: url("http://localhost:4000/assets/images/khd_quirkbot.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
 .metrics {
   position: relative;
-  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background: url("http://localhost:4000/assets/images/khd_quirkbot.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .metrics * {
@@ -177,7 +178,7 @@ a.khd-btn-fill {
 
 .goals {
   position: relative;
-  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background: url("http://localhost:4000/assets/images/khd_quirkbot.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .goals * {

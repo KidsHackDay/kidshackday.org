@@ -2,7 +2,7 @@ testimonials:
   title: Testimonials
   items:
     - name: Murilo Polese
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
       text:
          Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
@@ -13,7 +13,7 @@ testimonials:
          vape chia. Polaroid synth freegan kitsch bespoke
          activated.
     - name: Murilo Polese
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
       text:
          Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
@@ -23,7 +23,7 @@ testimonials:
          brooklyn cliche bespoke activated. Gentrify kinfolk letterpress PBR&B,
          vape chia. Polaroid synth freegan kitsch 8-bit, brooklyn cliche.
     - name: Murilo Polese
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
       text:
          Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
@@ -38,37 +38,49 @@ people:
   items:
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br
     - name: Murilo Polese
       role: Volunteer
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
+      link: http://murilopolese.com.br
+    - name: Murilo Polese
+      role: Volunteer
+      image: /assets/images/kids1.jpg
+      link: http://murilopolese.com.br
+    - name: Murilo Polese
+      role: Volunteer
+      image: /assets/images/kids1.jpg
+      link: http://murilopolese.com.br
+    - name: Murilo Polese
+      role: Volunteer
+      image: /assets/images/kids1.jpg
       link: http://murilopolese.com.br

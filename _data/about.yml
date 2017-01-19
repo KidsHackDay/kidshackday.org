@@ -1,5 +1,5 @@
 header:
-  background: /assets/khd_quirkbot.jpg
+  background: /assets/images/khd_quirkbot.jpg
   title: What is Kids Hack Day?
   description:
     Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
@@ -34,7 +34,7 @@ history:
 
 goals:
   title: KHD goals
-  background: /assets/khd_quirkbot.jpg
+  background: /assets/images/khd_quirkbot.jpg
   items:
     - icon: fa-heart
       text:

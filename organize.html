@@ -44,10 +44,11 @@ layout: 'default'
 				</p>
 			</div>
 			<div class="col"></div>
-		</div>
-		<div class="row text-center">
-			<div class="col">
-				<a class="khd-btn khd-btn-fill" href="{{site.url}}/process">Follow this steps</a>
+			<div class="w-100"></div>
+			<div class="col text-center">
+				<a class="khd-btn khd-btn-fill" href="{{site.url}}{{site.data.organize.header.button.link}}">
+					{{site.data.organize.header.button.text}}
+				</a>
 			</div>
 		</div>
 	</div>
@@ -55,23 +56,25 @@ layout: 'default'
 	<div class="container vertical-pad">
 		<div class="row text-center">
 			<div class="col">
-				<h2>{{site.data.organize.activities.title}}</h2>
+				<h2>{{site.data.activities.title}}</h2>
 			</div>
 		</div>
 		<div class="row items-list">
-			{% for activity in site.data.organize.activities.items %}
-				<div class="col-md-4 item">
-					<p>
-						<a href="#">
-							<img width="100%" src="{{site.url}}/{{activity.image}}" alt="{{activity.title}}">
-						</a>
-					</p>
-					<h4>
-						<a href="{{activity.link}}">
-							{{activity.title}}
-						</a>
-					</h4>
-				</div>
+			{% for activity in site.data.activities.items %}
+				{% if forloop.index <= 6 %}
+					<div class="col-md-4 item">
+						<p>
+							<a href="#">
+								<img width="100%" src="{{site.url}}/{{activity.image}}" alt="{{activity.title}}">
+							</a>
+						</p>
+						<h4>
+							<a href="{{activity.link}}">
+								{{activity.title}}
+							</a>
+						</h4>
+					</div>
+				{% endif %}
 			{% endfor %}
 		</div>
 		<div class="row text-center">
@@ -79,4 +82,5 @@ layout: 'default'
 				<a class="khd-btn khd-btn-fill" href="{{site.url}}/activities">See more</a>
 			</div>
 		</div>
+	</div>
 </div>

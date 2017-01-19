@@ -11,30 +11,30 @@ layout: 'default'
 				<h2>{{site.data.whoweare.testimonials.title}}</h2>
 			</div>
 		</div>
-			{% for testimonial in site.data.whoweare.testimonials.items %}
-				<div class="row items-list vertical-pad">
-					<div class="col-md-5 col-lg-3 offset-lg-1">
-						<p>
-							<a href="{{testimonial.link}}" target="_blank">
-								<img width="100%" src="{{site.url}}/{{testimonial.image}}" alt="{{testimonial.name}}">
-							</a>
-						</p>
-					</div>
-					<div class="col-md-7">
-						<h4>
-							<a href="{{testimonial.link}}" target="_blank">
-								{{testimonial.name}}
-							</a>
-						</h4>
-						<p>
-							{{testimonial.text}}
-						</p>
-					</div>
+		{% for testimonial in site.data.whoweare.testimonials.items %}
+			<div class="row items-list vertical-pad">
+				<div class="col-md-5 col-lg-3 offset-lg-1">
+					<p>
+						<a href="{{testimonial.link}}" target="_blank">
+							<img width="100%" src="{{site.url}}/{{testimonial.image}}" alt="{{testimonial.name}}">
+						</a>
+					</p>
 				</div>
-			{% endfor %}
+				<div class="col-md-7">
+					<h4>
+						<a href="{{testimonial.link}}" target="_blank">
+							{{testimonial.name}}
+						</a>
+					</h4>
+					<p>
+						{{testimonial.text}}
+					</p>
+				</div>
+			</div>
+		{% endfor %}
 	</div>
 
-	<div class="container vertical-pad">
+	<div class="container">
 		<div class="row">
 			<div class="col text-center">
 				<h2>{{site.data.whoweare.people.title}}</h2>
@@ -58,13 +58,13 @@ layout: 'default'
 					</p>
 				</div>
 			{% endfor %}
-		</div>
-		<div class="row text-center">
-			<div class="col">
+			<div class="w-100"></div>
+			<div class="col text-center">
 				<a class="khd-btn khd-btn-fill" href="{{site.url}}/organize">
 					Join this list
 				</a>
 			</div>
 		</div>
 	</div>
+
 </div>

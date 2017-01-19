@@ -1,5 +1,5 @@
 header:
-  background: /assets/khd_quirkbot.jpg
+  background: /assets/images/khd_quirkbot.jpg
   title: Organize Your KHD
   description:
     Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
@@ -36,20 +36,20 @@ activities:
   title: What happens at a KHD?
   items:
     - title: Soldering
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://google.com
     - title: Robotics
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://google.com
     - title: Programing
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://google.com
     - title: Building
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://google.com
     - title: Storytelling
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://google.com
     - title: 3D Printing
-      image: /assets/kids1.jpg
+      image: /assets/images/kids1.jpg
       link: http://google.com
