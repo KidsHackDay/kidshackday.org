@@ -2,31 +2,33 @@
 layout: 'default'
 ---
 
-<div class="navbar-padding color-overlay"></div>
+<div class="events">
+	<div class="navbar-padding color-overlay"></div>
 
-<div class="container vertical-pad">
-	<div class="row">
-		<div class="col text-center">
-			<h2>Events</h2>
+	<div class="container vertical-pad">
+		<div class="row">
+			<div class="col text-center">
+				<h2>Events</h2>
+			</div>
 		</div>
-	</div>
-	<div class="row events">
-			{% for event in site.data.events.events %}
-				<div class="col-md-4 event">
-					<p>
-						<a href="#">
-							<img width="100%" src="{{site.url}}/{{event.image}}" alt="{{event.title}}">
-						</a>
-					</p>
-					<h4>
-						<a href="#">
-							{{event.title}}
-						</a>
-					</h4>
-					<p>
-						{{event.date}}
-					</p>
-				</div>
-			{% endfor %}
+		<div class="row events-list">
+				{% for event in site.data.events.events %}
+					<div class="col-md-4 event">
+						<p>
+							<a href="#">
+								<img width="100%" src="{{site.url}}/{{event.image}}" alt="{{event.title}}">
+							</a>
+						</p>
+						<h4>
+							<a href="#">
+								{{event.title}}
+							</a>
+						</h4>
+						<p>
+							{{event.date}}
+						</p>
+					</div>
+				{% endfor %}
+		</div>
 	</div>
 </div>

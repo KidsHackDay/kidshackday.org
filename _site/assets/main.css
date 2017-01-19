@@ -139,14 +139,26 @@ a.khd-btn-fill {
   z-index: 0; }
 
 .header {
-  height: calc(90vh - 95px);
-  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  height: calc(90vh - 95px); }
   .header p {
     line-height: 2em; }
   .header * {
     color: #dedede; }
+
+.home .header {
+  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.about .header {
+  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.organize .header {
+  background: url("http://localhost:4000/assets/khd_quirkbot.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .metrics {
   position: relative;
@@ -168,6 +180,10 @@ a.khd-btn-fill {
   .goals .fa {
     font-size: 32px; }
 
-.events .event {
+.events-list .event {
+  text-align: center;
+  margin-bottom: 18px; }
+
+.activities-list .activity {
   text-align: center;
   margin-bottom: 18px; }

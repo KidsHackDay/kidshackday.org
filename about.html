@@ -1,96 +1,97 @@
 ---
 layout: 'default'
 ---
+<div class="about">
+	<div class="container-fluid">
+		<div class="row header color-overlay align-items-center">
+			<div class="col"></div>
 
-<div class="container-fluid">
-	<div class="row header color-overlay align-items-center">
-		<div class="col"></div>
-
-		<div class="col-6 text-center">
-			<h1>{{site.data.about.header.title}}</h1>
-			<h4>{{site.data.about.header.description}}</h4>
-			<p>
-				<a class="khd-btn khd-btn-outline" href="{{site.url}}{{site.data.about.header.button.link}}">
-					{{site.data.about.header.button.text}}
-				</a>
-			</p>
-		</div>
-
-		<div class="col"></div>
-	</div>
-</div>
-
-<div class="container vertical-pad">
-	<div class="row">
-		<div class="col">
-			<h2>{{site.data.about.history.title}}</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col"></div>
-		<div class="col-md-10">
-			<div class="video-container">
-				<iframe width="540" height="315" src="https://www.youtube.com/embed/{{site.data.about.history.youtubeId}}" frameborder="0" allowfullscreen></iframe>
+			<div class="col-6 text-center">
+				<h1>{{site.data.about.header.title}}</h1>
+				<h4>{{site.data.about.header.description}}</h4>
+				<p>
+					<a class="khd-btn khd-btn-outline" href="{{site.url}}{{site.data.about.header.button.link}}">
+						{{site.data.about.header.button.text}}
+					</a>
+				</p>
 			</div>
-		</div>
-		<div class="col"></div>
-	</div>
-	<div class="row vertical-pad">
-		<div class="col"></div>
-		<div class="col-md-8">
-			<p>
-				{{site.data.about.history.text}}
-			</p>
-		</div>
-		<div class="col"></div>
-	</div>
-</div>
 
+			<div class="col"></div>
+		</div>
+	</div>
 
-<div class="goals color-overlay">
 	<div class="container vertical-pad">
-		<div class="row text-center">
+		<div class="row">
 			<div class="col">
-				<h2>{{site.data.about.goals.title}}</h2>
+				<h2>{{site.data.about.history.title}}</h2>
 			</div>
 		</div>
-		<div class="row text-center">
-			{% for goal in site.data.about.goals.items %}
-				<div class="col-md-4 vertical-pad">
-						<p>
-							<i class="fa {{goal.icon}}"></i>
-						</p>
-						<h5>
-							{{goal.text}}
-						</h5>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-md-10">
+				<div class="video-container">
+					<iframe width="540" height="315" src="https://www.youtube.com/embed/{{site.data.about.history.youtubeId}}" frameborder="0" allowfullscreen></iframe>
 				</div>
-			{% endfor %}
+			</div>
+			<div class="col"></div>
 		</div>
-	</div>
-</div>
-
-
-<div class="container vertical-pad">
-	<div class="row">
-		<div class="col">
-			<h2>{{site.data.about.more.title}}</h2>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col"></div>
-		<div class="col-md-8">
-			<p>{{site.data.about.more.text}}</p>
-		</div>
-		<div class="col"></div>
-	</div>
-	<div class="row">
-		<div class="col text-center">
-			<p>
-				<a class="khd-btn khd-btn-fill" href="{{site.url}}/faq">
-					{{site.data.about.more.button.text}}
-				</a>
-			</p>
+		<div class="row vertical-pad">
+			<div class="col"></div>
+			<div class="col-md-8">
+				<p>
+					{{site.data.about.history.text}}
+				</p>
+			</div>
+			<div class="col"></div>
 		</div>
 	</div>
 
+
+	<div class="goals color-overlay">
+		<div class="container vertical-pad">
+			<div class="row text-center">
+				<div class="col">
+					<h2>{{site.data.about.goals.title}}</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				{% for goal in site.data.about.goals.items %}
+					<div class="col-md-4 vertical-pad">
+							<p>
+								<i class="fa {{goal.icon}}"></i>
+							</p>
+							<h5>
+								{{goal.text}}
+							</h5>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container vertical-pad">
+		<div class="row">
+			<div class="col">
+				<h2>{{site.data.about.more.title}}</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-md-8">
+				<p>{{site.data.about.more.text}}</p>
+			</div>
+			<div class="col"></div>
+		</div>
+		<div class="row">
+			<div class="col text-center">
+				<p>
+					<a class="khd-btn khd-btn-fill" href="{{site.url}}/faq">
+						{{site.data.about.more.button.text}}
+					</a>
+				</p>
+			</div>
+		</div>
+
+	</div>
 </div>

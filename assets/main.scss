@@ -192,15 +192,27 @@ a.khd-btn-fill {
 //// HEADER
 .header {
 	height: calc(90vh - 95px);
-	background: url('{{site.url}}{{site.data.home.header.background}}');
-	background-repeat: no-repeat;
-	background-size: cover;
 	p {
 		line-height: 2em;
 	}
 	* {
 		color: $grey-light;
 	}
+}
+.home .header {
+	background: url('{{site.url}}{{site.data.home.header.background}}');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about .header {
+	background: url('{{site.url}}{{site.data.about.header.background}}');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.organize .header {
+	background: url('{{site.url}}{{site.data.organize.header.background}}');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 //// METRICS
@@ -232,8 +244,14 @@ a.khd-btn-fill {
 }
 
 //// EVENTS
-.events {
+.events-list {
 	.event {
+		text-align: center;
+		margin-bottom: $base-line;
+	}
+}
+.activities-list {
+	.activity {
 		text-align: center;
 		margin-bottom: $base-line;
 	}
