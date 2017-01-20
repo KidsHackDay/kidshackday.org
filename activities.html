@@ -10,7 +10,15 @@ layout: 'default'
 			<div class="col text-center">
 				<h2>{{site.data.activities.title}}</h2>
 			</div>
+			<div class="w-100"></div>
+			<div class="col"></div>
+			<div class="col-md-8">
+				<p>{{site.data.activities.text}}</p>
+			</div>
+			<div class="col"></div>
 		</div>
+	</div>
+	<div class="container">
 		<div class="row items-list">
 				{% for activity in site.data.activities.items %}
 					<div class="col-md-4 item">
