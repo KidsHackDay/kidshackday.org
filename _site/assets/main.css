@@ -51,7 +51,8 @@ a:link,
 a:hover,
 a:active,
 a:visited {
-  color: #303030; }
+  color: #303030;
+  font-weight: bold; }
 
 a:hover {
   text-decoration: underline; }
@@ -125,18 +126,23 @@ a.khd-btn-fill {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 0.1em;
-    font-weight: bold;
     font-family: 'Open Sans', sans-serif; }
+    .navbar .nav-item.active .nav-link {
+      font-weight: bold;
+      color: #3daeff; }
     .navbar .nav-item .nav-link {
       padding-right: 1rem;
       padding-left: 1rem;
       color: #dedede; }
+      .navbar .nav-item .nav-link:hover {
+        color: #3daeff; }
 
 .navbar-padding {
   position: relative;
   height: 95px;
   width: 100%;
-  z-index: 0; }
+  z-index: 0;
+  background: url("http://localhost:4000/assets/images/khd_quirkbot.jpg"); }
 
 .header {
   padding-top: 95px;

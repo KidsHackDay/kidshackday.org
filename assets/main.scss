@@ -8,6 +8,7 @@ $grey-light: #dedede;
 $grey: #303030;
 $grey-dark: #404040;
 $yellow: #fde153;
+$blue: #3daeff;
 
 //// SIZES
 $base-line: 18px;
@@ -84,6 +85,7 @@ a:hover,
 a:active,
 a:visited {
 	color: $grey;
+	font-weight: bold;
 }
 a:hover {
 	text-decoration: underline;
@@ -173,12 +175,18 @@ a.khd-btn-fill {
 		text-transform: uppercase;
 		font-size: $font-menu;
 		letter-spacing: 0.1em;
-		font-weight: bold;
 		font-family: 'Open Sans', sans-serif;
+		&.active .nav-link {
+			font-weight: bold;
+			color: $blue;
+		}
 		.nav-link {
 			padding-right: 1rem;
 			padding-left: 1rem;
 			color: $grey-light;
+			&:hover {
+				color: $blue;
+			}
 		}
 	}
 }
@@ -187,6 +195,7 @@ a.khd-btn-fill {
 	height: 95px;
 	width: 100%;
 	z-index: 0;
+	background: url('{{site.url}}/assets/images/khd_quirkbot.jpg');
 }
 
 //// HEADER
@@ -209,17 +218,17 @@ a.khd-btn-fill {
 	}
 }
 .home .header {
-	background: url('{{site.url}}{{site.data.home.header.background}}');
+	background: url('{{site.url}}/assets/images/khd_quirkbot.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .about .header {
-	background: url('{{site.url}}{{site.data.about.header.background}}');
+	background: url('{{site.url}}/assets/images/khd_quirkbot.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .organize .header {
-	background: url('{{site.url}}{{site.data.organize.header.background}}');
+	background: url('{{site.url}}/assets/images/khd_quirkbot.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -227,7 +236,7 @@ a.khd-btn-fill {
 //// METRICS
 .metrics {
 	position: relative;
-	background: url('{{site.url}}{{site.data.home.metrics.background}}');
+	background: url('{{site.url}}/assets/images/khd_quirkbot.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	* {
@@ -241,7 +250,7 @@ a.khd-btn-fill {
 //// GOALS
 .goals {
 	position: relative;
-	background: url('{{site.url}}{{site.data.about.goals.background}}');
+	background: url('{{site.url}}/assets/images/khd_quirkbot.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	* {

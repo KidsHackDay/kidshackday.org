@@ -1,5 +1,6 @@
 ---
 layout: 'default'
+active: /activities
 ---
 
 <div class="events">
@@ -8,19 +9,32 @@ layout: 'default'
 	<div class="container vertical-pad">
 		<div class="row">
 			<div class="col text-center">
-				<h2>{{site.data.activities.title}}</h2>
+				<h2>What happens on a KHD?</h2>
 			</div>
 			<div class="w-100"></div>
 			<div class="col"></div>
 			<div class="col-md-8">
-				<p>{{site.data.activities.text}}</p>
+				<p>
+					Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+			    freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+			    Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+			    freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+			    Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+			    freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+			    Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+			    freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+			    Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+			    freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+			    Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+			    freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+				</p>
 			</div>
 			<div class="col"></div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="row items-list">
-				{% for activity in site.data.activities.items %}
+				{% for activity in site.data.activities %}
 					<div class="col-md-4 item">
 						<p>
 							<a href="#">
@@ -40,17 +54,26 @@ layout: 'default'
 	<div class="container">
 		<div class="row">
 			<div class="col text-center">
-				<h2>{{site.data.activities.partners.title}}</h2>
+				<h2>Tools and partners</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col"></div>
 			<div class="col-md-8 text-center">
-				<h5>{{site.data.activities.partners.text}}</h5>
+				<h5>
+					Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+				  freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+				  Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+				  freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+				  Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+				  freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+				  Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth
+				  freegan kitsch 8-bit, brooklyn cliche bespoke activated.
+				</h5>
 			</div>
 			<div class="col"></div>
 		</div>
-		{% for partner in site.data.activities.partners.items %}
+		{% for partner in site.data.partners %}
 			<div class="row items-list vertical-pad">
 				<div class="col-md-5 col-lg-3 offset-lg-1">
 					<p>

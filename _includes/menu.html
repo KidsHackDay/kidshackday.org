@@ -8,7 +8,11 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="navbar-nav">
 			{% for item in site.data.menu.items %}
-				<li class="nav-item">
+				{% if page.active == item.link %}
+					<li class="nav-item active">
+				{% else %}
+					<li class="nav-item">
+				{% endif %}
 					{% if item.target == "_blank" %}
 						<a class="nav-link" href="{{item.link}}" target="{{item.target}}">{{item.text}}</a>
 					{% else %}

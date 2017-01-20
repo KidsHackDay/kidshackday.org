@@ -8,23 +8,16 @@ layout: 'default'
 	<div class="container vertical-pad">
 		<div class="row">
 			<div class="col">
-				<h2>{{site.data.process.title}}</h2>
+				<h2>This is what you have to do</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col"></div>
-			<div class="col-md-10">
-				<div class="video-container">
-					<iframe width="540" height="315" src="https://www.youtube.com/embed/{{site.data.process.youtubeId}}" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="col"></div>
-		</div>
-		<div class="row vertical-pad">
-			<div class="col"></div>
 			<div class="col-md-8">
 				<p>
-					{{site.data.process.text}}
+					Glad you made it here. You are now just one step away from starting to plan
+				  your event. However, before getting started make sure you read the
+				  <a href="{{site.url}}/about">Kids Hack Day Manifesto</a>.
 				</p>
 			</div>
 			<div class="col"></div>
@@ -34,10 +27,10 @@ layout: 'default'
 	<div class="container">
 		<div class="row">
 			<div class="col text-center">
-				<h2>{{site.data.process.steps.title}}</h2>
+				<h2>Follow this steps</h2>
 			</div>
 		</div>
-		{% for step in site.data.process.steps.items %}
+		{% for step in site.data.steps %}
 			<div class="row items-list vertical-pad">
 				<div class="col-md-5 col-lg-3 offset-lg-1">
 					<p>

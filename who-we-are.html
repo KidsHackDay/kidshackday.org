@@ -7,11 +7,35 @@ layout: 'default'
 
 	<div class="container vertical-pad">
 		<div class="row">
-			<div class="col text-center">
-				<h2>{{site.data.whoweare.testimonials.title}}</h2>
+			<div class="col">
+				<h2>Our amazing organizers</h2>
 			</div>
 		</div>
-		{% for testimonial in site.data.whoweare.testimonials.items %}
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-md-8">
+				<p>
+					Kids Hack Day is enabled by passionate people from all walks of life
+					all over the world who shares our values and vision. For anyone who
+					have organized a Kids Hack Day event and want to take a lead role in
+					supporting their local community of organizers we have created an
+					ambassador program. To read about what other ambassadors are saying
+					see the testimonials below. If you want to become an ambassador
+					yourself please apply here by contacting
+					<a href="mailto:murilo@kidshackday.com" target="_blank">murilo@kidshackday.com</a>
+				</p>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h2>Testimonials</h2>
+			</div>
+		</div>
+		{% for testimonial in site.data.whoweare.testimonials %}
 			<div class="row items-list vertical-pad">
 				<div class="col-md-5 col-lg-3 offset-lg-1">
 					<p>
@@ -37,11 +61,11 @@ layout: 'default'
 	<div class="container">
 		<div class="row">
 			<div class="col text-center">
-				<h2>{{site.data.whoweare.people.title}}</h2>
+				<h2>Founders, volunteers, organizers</h2>
 			</div>
 		</div>
 		<div class="row items-list vertical-pad">
-			{% for people in site.data.whoweare.people.items %}
+			{% for people in site.data.whoweare.people %}
 				<div class="col-md-3 item">
 					<p>
 						<a href="{{people.link}}" target="_blank">
