@@ -22,16 +22,14 @@ layout: 'default'
 			</div>
 			<div class="col"></div>
 		</div>
-	</div>
-
-	<div class="container">
+		
 		<div class="row">
 			<div class="col text-center">
 				<h2>Follow this steps</h2>
 			</div>
 		</div>
 		{% for step in site.data.steps %}
-			<div class="row items-list vertical-pad">
+			<div class="row items-list">
 				<div class="col-md-5 col-lg-3 offset-lg-1">
 					<p>
 						<img width="100%" src="{{site.url}}/{{step.image}}" alt="{{step.title}}">

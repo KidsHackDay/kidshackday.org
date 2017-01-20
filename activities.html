@@ -7,7 +7,8 @@ active: /activities
 	<div class="navbar-padding color-overlay"></div>
 
 	<div class="container vertical-pad">
-		<div class="row">
+
+		<div class="row vertical-pad-bottom">
 			<div class="col text-center">
 				<h2>What happens on a KHD?</h2>
 			</div>
@@ -31,9 +32,8 @@ active: /activities
 			</div>
 			<div class="col"></div>
 		</div>
-	</div>
-	<div class="container">
-		<div class="row items-list">
+
+		<div class="row items-list vertical-pad-bottom">
 				{% for activity in site.data.activities %}
 					<div class="col-md-4 item">
 						<p>
@@ -49,15 +49,13 @@ active: /activities
 					</div>
 				{% endfor %}
 		</div>
-	</div>
 
-	<div class="container">
 		<div class="row">
 			<div class="col text-center">
 				<h2>Tools and partners</h2>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row vertical-pad-bottom">
 			<div class="col"></div>
 			<div class="col-md-8 text-center">
 				<h5>
@@ -74,7 +72,7 @@ active: /activities
 			<div class="col"></div>
 		</div>
 		{% for partner in site.data.partners %}
-			<div class="row items-list vertical-pad">
+			<div class="row items-list vertical-pad-bottom">
 				<div class="col-md-5 col-lg-3 offset-lg-1">
 					<p>
 						<a href="{{partner.link}}" target="_blank">

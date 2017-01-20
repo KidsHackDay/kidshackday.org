@@ -39,6 +39,10 @@ h5 {
   line-height: 1.5em;
   font-weight: normal; }
 
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
 body {
   font-size: 16px;
   line-height: 1.3em;
@@ -72,12 +76,19 @@ a:hover {
   padding-top: 36px;
   padding-bottom: 36px; }
 
+.vertical-pad-up {
+  padding-top: 36px; }
+
+.vertical-pad-bottom {
+  padding-bottom: 36px; }
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 1rem; }
 
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
