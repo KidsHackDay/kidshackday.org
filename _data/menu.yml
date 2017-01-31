@@ -12,9 +12,6 @@ items:
   - text: Organize your own
     link: /organize
 
-  - text: FAQ
-    link: /faq
-
   - text: Wiki
     link: https://github.com/KidsHackDay/kidshackday.org/wiki
     target: _blank
