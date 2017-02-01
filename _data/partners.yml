@@ -1,30 +1,23 @@
+- name: Creatubbles
+  image: /assets/images/kids1.jpg
+  link: http://quirkbot.com
+  text:
+     Creatubbles is a safe online community for creative kids, teachers and parents. 
+     Thanks to the Kids Hack Day gallery on Creatubbles, kids participating in our events can interact with kids from
+     other events across the globe simply through the projects they are making and uploading to our Creatubbles gallery. 
+If you're a KHD organizer you can use Creatubbles to engage your attendees in helping you document everything that's beeing 
+made at your event. 
 - name: Quirkbot
   image: /assets/images/kids1.jpg
   link: http://quirkbot.com
   text:
-     Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
-     Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth freegan
-     kitsch 8-bit, brooklyn cliche bespoke activated. Gentrify kinfolk
-     letterpress PBR&B, vape chia. Polaroid synth freegan kitsch 8-bit,
-     brooklyn cliche bespoke activated. Gentrify kinfolk letterpress PBR&B,
-     vape chia. Polaroid synth freegan kitsch 8-bit, brooklyn cliche.
-- name: Quirkbot
+     Quirkbot is a creative and educational robotics platform for kids that allows them to build and program their own robots 
+     from scratch in just a matter of minutes. Quirkbot allows for the use of everyday materials and brings life to the objects around you.
+     Check out what you can make on www.quirkbot.com/build.
+
+- name: Strawbees
   image: /assets/images/kids1.jpg
   link: http://quirkbot.com
   text:
-     Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
-     Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth freegan
-     kitsch 8-bit, brooklyn cliche bespoke activated. Gentrify kinfolk
-     letterpress PBR&B, vape chia. Polaroid synth freegan kitsch 8-bit,
-     brooklyn cliche bespoke activated. Gentrify kinfolk letterpress PBR&B,
-     vape chia. Polaroid synth freegan kitsch 8-bit, brooklyn cliche.
-- name: Quirkbot
-  image: /assets/images/kids1.jpg
-  link: http://quirkbot.com
-  text:
-     Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
-     Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth freegan
-     kitsch 8-bit, brooklyn cliche bespoke activated. Gentrify kinfolk
-     letterpress PBR&B, vape chia. Polaroid synth freegan kitsch 8-bit,
-     brooklyn cliche bespoke activated. Gentrify kinfolk letterpress PBR&B,
-     vape chia. Polaroid synth freegan kitsch 8-bit, brooklyn cliche.
+     Strawbees is a construciton toy for kids of all ages that allows you to connect straws and card-board in other to invent whatever 
+     you want. Check out what you can make here! http://education.strawbees.com/maker-activities/
