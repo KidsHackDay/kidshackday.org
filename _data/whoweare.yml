@@ -3,74 +3,72 @@ testimonials:
     image: /assets/images/kids1.jpg
     link: https://www.facebook.com/carl.barstad
     text:
-       Lead Instigator, 
+       Lead Instigator
   - name: Murilo Polese
     image: /assets/images/kids1.jpg
     link: http://murilopolese.com.br
     text:
-       Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
-       Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth freegan
-       kitsch 8-bit, brooklyn cliche bespoke activated. Gentrify kinfolk
-       letterpress PBR&B, vape chia. Polaroid synth freegan kitsch 8-bit,
-       brooklyn cliche bespoke activated. Gentrify kinfolk letterpress PBR&B,
-       vape chia. Polaroid synth freegan kitsch 8-bit, brooklyn cliche.
-  - name: Murilo Polese
+       Co-founder. Web, Content, Community
+       
+  - name: Paulo Barcelos
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
+    link: http://paulobarcelos.com/
     text:
-       Polaroid synth freegan kitsch 8-bit, brooklyn cliche bespoke activated.
-       Gentrify kinfolk letterpress PBR&B, vape chia. Polaroid synth freegan
-       kitsch 8-bit, brooklyn cliche bespoke activated. Gentrify kinfolk
-       letterpress PBR&B, vape chia. Polaroid synth freegan kitsch 8-bit,
-       brooklyn cliche bespoke activated. Gentrify kinfolk letterpress PBR&B,
-       vape chia. Polaroid synth freegan kitsch 8-bit, brooklyn cliche.
+       Co-Founder.
+       
 
 people:
+  - name: Carl Bärstad
+    Involvement: Lead Instigator  
+    Role: Organizer Activation. Force of good. Geek-dad. Passionately curious.
+    image: /assets/images/kids1.jpg
+    link: https://www.facebook.com/carl.barstad
+    
   - name: Murilo Polese
-    role: Volunteer
+  Involvement: Co-founder    
+  Role: Web, Content, Community. Uber geek, hacker & crazy scientist.
     image: /assets/images/kids1.jpg
     link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    
+      - name: Paulo Barcelos
+    Involvement: Co-founder
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    link: http://paulobarcelos.com/
+    
+        - name: Gregory Carniel
+    Involvement: Co-founder
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    link: http://www.gregcarniel.com/
+    
+     - name: Daniel Mascarenhas
+    Involvement: Co-founder
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    link: https://se.linkedin.com/in/damascarenhas
+    
+      - name: Alissa Lorentz
+    Involvement: Co-founder
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    link: http://paulobarcelos.com/
+    
+  - name: Sanne Bolten
+   Involvement: Co-founder
+    Role: Ambassador Netherlands
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    link: http://www.sannebolten.com/
+    
+  - name: Juan Pablo Calderón.
+   Involvement: Co-founder
+    Role: Ambassador Colombia
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    link: http://dumpa.co/
+    
+  - name: Marine Lee
+    Role: Ambassador Singapore 
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
+    link: https://www.facebook.com/myartbuddy/
+    
+  - name: Ricky-Ng-Adam
+    Role: Ambassador Shanghai
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
-    image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
-    image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
-  - name: Murilo Polese
-    role: Volunteer
-    image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
+    link: https://github.com/rngadam
+    
