@@ -1,24 +1,24 @@
 testimonials:
-  - name: Yoel Svenzén, Niki Schulz, Carin Stegen. Organizers of Kids Hack Day Stockholm 2016.
+  - name: "Yoel Svenzén, Niki Schulz, Carin Stegen. Organizers of Kids Hack Day Stockholm 2016."
     image: /assets/images/kids1.jpg
-    link: https://www.facebook.com/carl.barstad
+    link: "https://www.facebook.com/carl.barstad"
     text:
-       Working with the Kids Hack Day platform has been both fun and rewarding for us as students of the Digital Media Creative
-       program at Hyper Island. Organizing a technology event for kids is the ultimate challenge in creativity. It taught us
-       digital skills such as programming and digital marketing. It developed our event planning/execution and leadership skills.
-       The initial nonexistent budget we started with also forced us to be resourceful in recruiting sponsors and also helped us to
-       develop our skills in project management. Thankfully we had access to a huge space (our school Hyper Island) plus an amazing
-       team of students volunteering at the event helping us manage the insane amount of kids that actually showed up (300!).
-       
-       The thing we enjoyed the most with the Kids Hack Day platform was that it allowed us to be creative in the way we wanted to
-       adapt the event to our local context. It gave us guidelines and online resources to support us, but also enough freedom to add
-       our own visions and ideas. The open and free of charge event format was a great way for us to contribute to a more inviting
-       and inclusive society. Finally, we highly encourage anyone who wants to take on the challenge to organize a Kids Hack Day event.
-       It is highly rewarding and lots of fun.
+      Working with the Kids Hack Day platform has been both fun and rewarding for us as students of the Digital Media Creative
+      program at Hyper Island. Organizing a technology event for kids is the ultimate challenge in creativity. It taught us
+      digital skills such as programming and digital marketing. It developed our event planning/execution and leadership skills.
+      The initial nonexistent budget we started with also forced us to be resourceful in recruiting sponsors and also helped us to
+      develop our skills in project management. Thankfully we had access to a huge space (our school Hyper Island) plus an amazing
+      team of students volunteering at the event helping us manage the insane amount of kids that actually showed up (300!).
+
+      The thing we enjoyed the most with the Kids Hack Day platform was that it allowed us to be creative in the way we wanted to
+      adapt the event to our local context. It gave us guidelines and online resources to support us, but also enough freedom to add
+      our own visions and ideas. The open and free of charge event format was a great way for us to contribute to a more inviting
+      and inclusive society. Finally, we highly encourage anyone who wants to take on the challenge to organize a Kids Hack Day event.
+      It is highly rewarding and lots of fun.
 
   - name: Juan Pablo Calderón, organizer of Kids Hack Day Bogotá 2013
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
+    link: "http://murilopolese.com.br"
     text:
       Kids Hack Day creates a space where learning to learn happens. It develops curiosity and creativity, 2 important abilities of our
       times. Make dreams become reality, and reality dreamable. We learn to make, and learn by making. Kids hack day fixes the world
@@ -28,89 +28,89 @@ testimonials:
 
   - name: Sanne Bolten, organizer of Kids Hack Day Amsterdam 2014
     image: /assets/images/kids1.jpg
-    link: http://sannebolten.com/
+    link: "http://sannebolten.com/"
     text:
-       Kids are such curious creatures. They wonder, analyze, question, and test, and by doing so, develop. If a child stays curious,
-       he or she will continue to explore and discover throughout life. Kids Hack Day facilitates the tools and environment to both
-       arouse and fuel that curiosity. Little minds are activated with the help of math, science and new technologies. The pleasure
-       they get from the discovery and mastery of new skills is truly heartwarming. It makes their minds observant of new ideas, brings
-       excitement into their day and opens up new worlds and possibilities. For too many kids, curiosity crumbles away as they grow up.
-       In this age of complexity, curiosity perished is a future denied.
+      Kids are such curious creatures. They wonder, analyze, question, and test, and by doing so, develop. If a child stays curious,
+      he or she will continue to explore and discover throughout life. Kids Hack Day facilitates the tools and environment to both
+      arouse and fuel that curiosity. Little minds are activated with the help of math, science and new technologies. The pleasure
+      they get from the discovery and mastery of new skills is truly heartwarming. It makes their minds observant of new ideas, brings
+      excitement into their day and opens up new worlds and possibilities. For too many kids, curiosity crumbles away as they grow up.
+      In this age of complexity, curiosity perished is a future denied.
 
-- name: Ricky Ng-Adam, organizer of Kids Hack Day Shanghai 2015
+  - name: Ricky Ng-Adam, organizer of Kids Hack Day Shanghai 2015
     image: /assets/images/kids1.jpg
-    link: https://github.com/rngadam
+    link: "https://github.com/rngadam"
     text:
-       Kids Hack Day adds a lot of credibility to local making events by making them part of a larger global movement. This made it
-       easier to get corporate sponsors and attendees for our November 2015 event in Shanghai. The organization has been very supportive
-       of our first Kids Hack Day in China spending significant amount of time and resources in helping us prepare the event and even
-       more resources at the event itself. Without the key participation of some of the founders of Kids Hack Day, Quirkbot and Strawbees,
-       the event could not have had the value, interest and impact it had. We are looking forward to the future of Kids Hack Day!
+      Kids Hack Day adds a lot of credibility to local making events by making them part of a larger global movement. This made it
+      easier to get corporate sponsors and attendees for our November 2015 event in Shanghai. The organization has been very supportive
+      of our first Kids Hack Day in China spending significant amount of time and resources in helping us prepare the event and even
+      more resources at the event itself. Without the key participation of some of the founders of Kids Hack Day, Quirkbot and Strawbees,
+      the event could not have had the value, interest and impact it had. We are looking forward to the future of Kids Hack Day!
 
-- name: Marine Lee, organizer of Kids Hack Day Singapore 2015
+  - name: Marine Lee, organizer of Kids Hack Day Singapore 2015
     image: /assets/images/kids1.jpg
-    link: https://www.facebook.com/myartbuddy/
+    link: "https://www.facebook.com/myartbuddy/"
     text:
-       We hope to foster an open learning environment and let kids discover the Joy of figuring things out themselves. Playing and
-       testing out their ideas to discover their individual skills and abilities.
+      We hope to foster an open learning environment and let kids discover the Joy of figuring things out themselves. Playing and
+      testing out their ideas to discover their individual skills and abilities.
 
 
 people:
   - name: Carl Bärstad
-    Involvement: Lead Instigator
-    Role: Organizer Activation. Force of good. Geek-dad. Passionately curious.
+    involvement: Lead Instigator
+    role: Organizer Activation. Force of good. Geek-dad. Passionately curious.
     image: /assets/images/kids1.jpg
-    link: https://www.facebook.com/carl.barstad
+    link: "https://www.facebook.com/carl.barstad"
 
   - name: Murilo Polese
-  Involvement: Co-founder
-  Role: Web, Content, Community. Uber geek, hacker & crazy scientist.
+    involvement: Co-founder
+    role: Web, Content, Community. Uber geek, hacker & crazy scientist.
     image: /assets/images/kids1.jpg
-    link: http://murilopolese.com.br
+    link: "http://murilopolese.com.br"
 
-      - name: Paulo Barcelos
+  - name: Paulo Barcelos
+    involvement: Co-founder
+    image: /assets/images/kids1.jpg
+    link: "http://paulobarcelos.com/"
+
+  - name: Gregory Carniel
+    involvement: Co-founder
+    image: /assets/images/kids1.jpg
+    link: "http://www.gregcarniel.com/"
+
+  - name: Daniel Mascarenhas
     Involvement: Co-founder
     image: /assets/images/kids1.jpg
-    link: http://paulobarcelos.com/
+    link: "https://se.linkedin.com/in/damascarenhas"
 
-        - name: Gregory Carniel
+  - name: Alissa Lorentz
     Involvement: Co-founder
     image: /assets/images/kids1.jpg
-    link: http://www.gregcarniel.com/
-
-     - name: Daniel Mascarenhas
-    Involvement: Co-founder
-    image: /assets/images/kids1.jpg
-    link: https://se.linkedin.com/in/damascarenhas
-
-      - name: Alissa Lorentz
-    Involvement: Co-founder
-    image: /assets/images/kids1.jpg
-    link: http://paulobarcelos.com/
+    link: ""
 
   - name: Sanne Bolten
-   Involvement: Co-founder
+    Involvement: Co-founder
     Role: Ambassador Netherlands
     image: /assets/images/kids1.jpg
-    link: http://www.sannebolten.com/
+    link: "http://www.sannebolten.com/"
 
   - name: Juan Pablo Calderón.
-   Involvement: Co-founder
+    Involvement: Co-founder
     Role: Ambassador Colombia
     image: /assets/images/kids1.jpg
-    link: http://dumpa.co/
+    link: "http://dumpa.co/"
 
   - name: Marine Lee
     Role: Ambassador Singapore
     image: /assets/images/kids1.jpg
-    link: https://www.facebook.com/myartbuddy/
+    link: "https://www.facebook.com/myartbuddy/"
 
   - name: Ricky-Ng-Adam
     Role: Ambassador Shanghai
     image: /assets/images/kids1.jpg
-    link: https://github.com/rngadam
+    link: "https://github.com/rngadam"
 
-      - name: Alexandra Baez
+  - name: Alexandra Baez
     Role: Ambassador Spain & Dominican Republic
     image: /assets/images/kids1.jpg
-    link:
+    link: ""
