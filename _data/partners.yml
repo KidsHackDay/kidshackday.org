@@ -2,14 +2,13 @@
   image: /assets/images/kids1.jpg
   link: http://quirkbot.com
   text:
-    Creatubbles is a safe online community for creative kids, teachers and parents.
-    Thanks to the Kids Hack Day gallery on Creatubbles, kids participating in our events can interact with kids from
-    other events across the globe simply through the projects they are making and uploading to our Creatubbles gallery.
+    Creatubbles is a global community of creators. Thanks to Creatubbles, kids participating in our events can interact with kids from
+    other events across the globe simply through the projects they are making and uploading to the Kids Hack Day Creatubbles gallery.
     If you're a KHD organizer you can use Creatubbles to engage your attendees in helping you document everything that's beeing
     made at your event.
     
 - name: Quirkbot
-  image: /assets/images/kids1.jpg
+  image: /assets/images/Quirkbot_logo_RGB.png
   link: http://quirkbot.com
   text:
     Quirkbot is a creative and educational robotics platform for kids that allows them to build and program their own robots
@@ -17,7 +16,7 @@
     Check out what you can make on www.quirkbot.com/build.
 
 - name: Strawbees
-  image: /assets/images/kids1.jpg
+  image: /assets/images/Strawbees_logo_black.png
   link: http://quirkbot.com
   text:
     Strawbees is a construciton toy for kids of all ages that allows you to connect straws and card-board in other to invent whatever
