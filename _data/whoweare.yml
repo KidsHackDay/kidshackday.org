@@ -115,7 +115,53 @@ people:
     image: /assets/images/kids1.jpg
     link: ""
     
-    kids:
+
+kids:
+
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
+    
+    - name: Wilma
+    Role: test
+    image: /assets/images/kids1.jpg
+    link: ""
     
     - name: Wilma
     Role: test
