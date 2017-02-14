@@ -8,20 +8,16 @@ layout: 'default'
 	<div class="container vertical-pad">
 		<div class="row">
 			<div class="col">
-				<h2>Our amazing organizers</h2>
+				<h2>KHD Headquarters at Stockholm Makerspace</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col"></div>
 			<div class="col-md-8">
-				<p>
-					Kids Hack Day is enabled by passionate people from all walks of life
-					all over the world who shares our values and vision. For anyone who
-					have organized a Kids Hack Day event and want to take a lead role in
-					supporting their local community of organizers we have created an
-					ambassador program. To read about what other ambassadors are saying
-					see the testimonials below. If you want to become an ambassador
-					yourself please apply here by contacting
+				<p>Welcome to the Kids Hack Day headquarters, located at Stockholm Makerspace. From here we run all our global
+					endeavours as well as a weekly hacker club for kids. These kid ambassadors are part of shaping the global community and
+					keep giving us awesome ideas for what to do next. If you want to get in touch with us don't hesitate to
+					contact our lead instigator and community manager
 					<a href="mailto:mcarl@kidshackday.com" target="_blank">carl@kidshackday.com</a>
 				</p>
 			</div>
@@ -32,40 +28,11 @@ layout: 'default'
 	<div class="container">
 		<div class="row">
 			<div class="col text-center">
-				<h2>Testimonials</h2>
-			</div>
-		</div>
-		{% for testimonial in site.data.whoweare.testimonials %}
-			<div class="row items-list vertical-pad">
-				<div class="col-md-5 col-lg-3 offset-lg-1">
-					<p>
-						<a href="{{testimonial.link}}" target="_blank">
-							<img width="100%" src="{{site.url}}/{{testimonial.image}}" alt="{{testimonial.name}}">
-						</a>
-					</p>
-				</div>
-				<div class="col-md-7">
-					<h4>
-						<a href="{{testimonial.link}}" target="_blank">
-							{{testimonial.name}}
-						</a>
-					</h4>
-					<p>
-						{{testimonial.text}}
-					</p>
-				</div>
-			</div>
-		{% endfor %}
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col text-center">
-				<h2>Founders, organizers and kid ambassadors</h2>
+				<h2>Kids from our hacker club</h2>
 			</div>
 		</div>
 		<div class="row items-list vertical-pad">
-			{% for people in site.data.whoweare.people %}
+			{% for kids in site.data.whoweare.kids %}
 				<div class="col-md-3 item">
 					<p>
 						<a href="{{people.link}}" target="_blank">
@@ -74,11 +41,11 @@ layout: 'default'
 					</p>
 					<h4>
 						<a href="{{people.link}}" target="_blank">
-							{{people.name}}
+							{{kids.name}}
 						</a>
 					</h4>
 					<p>
-						{{people.role}}
+						{{kids.role}}
 					</p>
 			</div>			
 	
