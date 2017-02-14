@@ -115,12 +115,12 @@ people:
     image: /assets/images/kids1.jpg
     link: ""
     
-     - name: Wilma, 14
-    Role: Kid Ambassador
+    kids:
+    
+    - name: Wilma
+    Role: test
     image: /assets/images/kids1.jpg
     link: ""
     
-     - name: Wilma, 14
-    Role: Kid Ambassador
-    image: /assets/images/kids1.jpg
-    link: ""
+    
+    
