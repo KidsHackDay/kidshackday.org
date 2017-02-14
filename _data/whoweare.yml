@@ -117,7 +117,6 @@ people:
     
 
 kids:
-
     - name: Wilma
     Role: test
     image: /assets/images/kids1.jpg
