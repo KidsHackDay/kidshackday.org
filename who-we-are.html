@@ -82,6 +82,56 @@ layout: 'default'
 					</p>
 				</div>
 			{% endfor %}
+			
+			<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h2>Founders, volunteers, organizers</h2>
+			</div>
+		</div>
+		<div class="row items-list vertical-pad">
+			{% for people in site.data.whoweare.people %}
+				<div class="col-md-3 item">
+					<p>
+						<a href="{{people.link}}" target="_blank">
+							<img width="100%" src="{{site.url}}/{{people.image}}" alt="{{people.name}}">
+						</a>
+					</p>
+					<h4>
+						<a href="{{people.link}}" target="_blank">
+							{{people.name}}
+						</a>
+					</h4>
+					<p>
+						{{people.role}}
+					</p>
+				</div>
+			{% endfor %}
+			
+		<div class="container">
+		<div class="row">
+			<div class="col text-center">
+				<h2>Kid Ambassadors</h2>
+			</div>
+		</div>
+		<div class="row items-list vertical-pad">
+			{% for people in site.data.whoweare.people %}
+				<div class="col-md-3 item">
+					<p>
+						<a href="{{people.link}}" target="_blank">
+							<img width="100%" src="{{site.url}}/{{people.image}}" alt="{{people.name}}">
+						</a>
+					</p>
+					<h4>
+						<a href="{{people.link}}" target="_blank">
+							{{people.name}}
+						</a>
+					</h4>
+					<p>
+						{{people.role}}
+					</p>
+				</div>
+			{% endfor %}	
 			<div class="w-100"></div>
 			<div class="col text-center">
 				<a class="khd-btn khd-btn-fill" href="{{site.url}}/organize">
