@@ -130,10 +130,7 @@ kids:
   - name: Sofia, 11
     Role: Kid ambassador 
     image: /assets/images/kids1.jpg
-    link: ""
-    text: 
-    Whats this club to me? This club is a place where I can come and have fun and do programming and 3D printing with people I know and trust and that I like hanging out with. What do I like doing? Acting and making things!
-    What is my secret super power? I am the master of disguise.
+    link: "" 
     
   - name: Viktor, 11
     Role: Kid ambassador
