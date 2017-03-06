@@ -1,5 +1,10 @@
 - title: Stockholm, Sweden
-  date: 8th of April 2017
+  date: 8th of April, 2017
+  image: /assets/images/kids1.jpg
+  youtubeId: 5HS2aZylnq0
+  wiki: http://google.com
+- title: Gothenburg, Sweden
+  date: 8th of April, 2017
   image: /assets/images/kids1.jpg
   youtubeId: 5HS2aZylnq0
   wiki: http://google.com
@@ -23,8 +28,4 @@
   image: /assets/images/kids1.jpg
   youtubeId: 5HS2aZylnq0
   wiki: http://google.com
-- title: Gothenburg, Sweden
-  date: 31st of February 2017
-  image: /assets/images/kids1.jpg
-  youtubeId: 5HS2aZylnq0
-  wiki: http://google.com
+
