@@ -16,7 +16,7 @@ active: /events
 				{% for event in site.data.events %}
 					<div class="col-md-4 item">
 						<p>
-							<a href="#">
+							<a href="{{event.data.wiki}}">
 								<img width="100%" src="{{site.url}}/{{event.image}}" alt="{{event.title}}">
 							</a>
 						</p>
