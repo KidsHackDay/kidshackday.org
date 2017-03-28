@@ -1,1 +1,101 @@
+---
+layout: 'default'
+active: /support
+---
+
+<div class="organize">
+	<div class="container-fluid">
+		<div class="row header color-overlay align-items-center">
+			<div class="col"></div>
+			<div class="col-md-6 text-center">
+				<h1>Organize Your KHD</h1>
+				<h4>
+					Glad you made it here. You are now just one step away from supporting the movement. Other than organizing your own KHD event there
+are 2 ways to get involved as an individual and 1 way to get involved as an organization. As an individual you can support us by buying our partners products below and have your own mini kids hack day at home with family and friends or just with yourself ;)
+Buying from this page gives the Kids Hack Day non-profit (based in Sweden) 20% in commision from our partners from affiliate links. If you're not interested in any of our partners products 
+and just want to support our cause you can instead just make a simple and plain donation below. 
+          </br> If you're an organization interested in expanding your community of ambassador users let us know by filling in the form below. As a material partner you
+enable KHD events by giving "cost of product" prizes to KHD Organizers.
+
+				</h4>
+				<p>
+					<a class="khd-btn khd-btn-outline" href="{{site.url}}/process">
+						Follow these steps
+					</a>
+				</p>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+
+	<div class="container vertical-pad">
+		<div class="row">
+			<div class="col">
+				<h2>How does it work?</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-md-10">
+				<div class="video-container">
+					<iframe width="540" height="315" src="https://www.youtube.com/embed/16P-ULdzJko" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="col"></div>
+		</div>
+		<div class="row">
+			<div class="col"></div>
+			<div class="col-md-8">
+				<p>
+					Kids Hack Day is a global open source brand, free of charge for anyone to
+			    use. By creating an entry in our open wiki you can get a license for
+			    organizing 1 KHD event in your city. After you’ve held your event you can
+			    then renew this license or pass it on to someone else. The only thing we
+			    demand in return is that your event is well documented and free of charge for the kids. This
+			    means you will have to work with local sponsors to fund your event. This
+			    is a setup we’ve created to ensure we also reach kids in more underprivileged
+			    areas and have maximum social impact. 
+				</p>
+			</div>
+			<div class="col"></div>
+			<div class="w-100"></div>
+			<div class="col text-center">
+				<a class="khd-btn khd-btn-fill" href="{{site.url}}/process">
+					Follow these steps
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row text-center">
+			<div class="col">
+				<h2>What happens at a KHD?</h2>
+			</div>
+		</div>
+		<div class="row items-list">
+			{% for activity in site.data.activities %}
+				{% if forloop.index <= 6 %}
+					<div class="col-md-4 item">
+						<p>
+							<a href="#">
+								<img width="100%" src="{{site.url}}/{{activity.image}}" alt="{{activity.title}}">
+							</a>
+						</p>
+						<h4>
+							<a href="{{activity.link}}">
+								{{activity.title}}
+							</a>
+						</h4>
+					</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+		<div class="row text-center">
+			<div class="col">
+				<a class="khd-btn khd-btn-fill" href="{{site.url}}/activities">See more</a>
+			</div>
+		</div>
+	</div>
+</div>
 
