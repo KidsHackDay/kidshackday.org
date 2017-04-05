@@ -1,29 +1,33 @@
 - title: Stockholm, Sweden
   date: 6th of May, 2017
   image: /assets/images/kids1.jpg
-  wiki:https://www.eventbrite.com/e/kids-hack-day-stockholm-tickets-33426883709
+  wiki: https://www.eventbrite.com/e/kids-hack-day-stockholm-tickets-33426883709
 - title: Singapore, Singapore
   date: 6th of June, 2017
   image: /assets/images/kids1.jpg
   wiki: https://www.eventbrite.com/e/kids-hack-day-singapore-tickets-33426930850
-- title: Dhaka, Bangladesh
-  date: 2017
-  image: /assets/images/kids1.jpg
-  youtubeId: 5HS2aZylnq0
-  wiki: http://google.com
 - title: London, UK
-  date: 2017
+  date: 10th of June, 2017
   image: /assets/images/kids1.jpg
-  youtubeId: 5HS2aZylnq0
-  wiki: http://google.com
+  wiki: https://www.eventbrite.com/e/kids-hack-day-london-tickets-33426692136
+- title: Bogotá, Colombia
+  date: 17th of June, 2017
+  image: /assets/images/kids1.jpg
+  wiki: https://www.eventbrite.com/e/kids-hack-day-bogota-tickets-33426864652
+- title: Dhaka, Bangladesh
+  date: 1st of July, 2017
+  image: /assets/images/kids1.jpg
+  wiki: https://www.eventbrite.com/e/kids-hack-day-dhaka-tickets-33427384206
 - title: Hong Kong
-  date: 2017
+  date: 19th of July, 2017
   image: /assets/images/kids1.jpg
-  youtubeId: 5HS2aZylnq0
-  wiki: http://google.com
+  wiki: https://www.eventbrite.com/e/kids-hack-day-hong-kong-tickets-33439247690
 - title: Vilnius, Lithuania
-  date: 2017
+  date: 12th of August, 2017
   image: /assets/images/kids1.jpg
-  youtubeId: 5HS2aZylnq0
-  wiki: http://google.com
+  wiki: https://www.eventbrite.com/e/kids-hack-day-vilnius-tickets-33439296837
+- title: Göteborg, Sweden
+  date: 19th of August, 2017
+  image: /assets/images/kids1.jpg
+  wiki: https://www.eventbrite.com/e/kids-hack-day-goteborg-tickets-33427126435
 
